@@ -8,7 +8,9 @@ and emotional pacing using an envelope metaphor.
 - Wax seal as a single clear affordance
 - Subtle guidance shown briefly to reduce cognitive load
 - Typewriter animation to slow reading pace
-- Mobile-first responsive design
+- This project follows a desktop-first responsive design approach,
+optimised for larger screens and adapted for smaller devices.
+
 
 ## Tech Stack
 - HTML
