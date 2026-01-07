@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>you’ve got a message!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class=" envelope-screen" id="envelopeScreen">
+        <div class="envelope">
+            <div class="envelope-text">
+                <span>For someone special </span><br>
+                <span>-shru</span>
+            </div>
+                <div class="seal-hint">
+                 Tap the seal to open !
+                </div>
+            <img src="images/dried-flowers.png" class="flowers" alt="">
+            <img src="images/wax-seal.png" class="wax" id="waxSeal" alt="was seal">
+        </div>
+    </div>
+    <div class="petals"></div>
+    <div class="paper" id="letter">
+        <p id="text"></p>
+    </div>
+    <audio id="bg-music" loop preload="auto">
+        <source src="./audio/music.mp3" type="audio/mpeg">
+    </audio>
+    <script src="script.js"></script>
+    <audio id="typeSound" src="audio/typewriter.mp3" preload="auto"></audio>
+
+</body>
+</html>
